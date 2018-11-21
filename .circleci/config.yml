@@ -9,7 +9,7 @@ jobs:
     working_directory: /go/src/github.com/disaster37/go-keytab
     steps:
       - checkout
-      - run: aptitude update && aptitude install -y krb5-user
+      - run: apt-get update && apt-get install -y krb5-user
       - run: go get -v -t -d ./...
       - run: go test -v ./...
   build:
