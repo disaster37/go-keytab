@@ -54,6 +54,12 @@ You need to specify the following parameters:
 
 It return error if one of them principal/cipher already exist on keytab
 
+If you need to generate keytab for AD, you can use the following cyphers:
+
+```
+--ciphers arcfour-hmac,des-cbc-md5,aes128-cts-hmac-sha1-96,des3-cbc-sha1,aes256-cts-hmac-sha1-96
+```
+
 ### Check if principal exist on keytab
 
 You need to lauch the following command:

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/disaster37/go-keytab/keytab"
 	"github.com/pkg/errors"
+	log "github.com/sirupsen/logrus"
 	"gopkg.in/urfave/cli.v1"
 	"strings"
 )
